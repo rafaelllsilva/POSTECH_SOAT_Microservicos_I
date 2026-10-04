@@ -9,7 +9,8 @@ WORKDIR /app
 COPY requirements.txt /app/
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY main.1.py /app/main.py
+# COPY main.1.py /app/main.py
+COPY main.2.py /app/main.py
 
 # Expõe a porta 8080
 EXPOSE 8080
