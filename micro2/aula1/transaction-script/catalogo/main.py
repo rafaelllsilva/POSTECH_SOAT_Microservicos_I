@@ -8,8 +8,8 @@ DATABASE_URL = "mysql+mysqlconnector://catalogo_user:Mudar123!@db-servicos:3306/
 QUEUE_NAME = "produto-atualizacao"
 ENDPOINT_URL='http://localstack:4566'
 REGION_NAME='us-east-1'
-AWS_ACCESS_KEY_ID='LKIAQAAAAAAAFFCVQQVU'
-AWS_SECRET_ACCESS_KEY='wEWEKcBy8wQDOp5STKPfUUS/wykE6er26Taj/YFP'
+AWS_ACCESS_KEY_ID='LKIAQAAAAAAAHMOTVATR'
+AWS_SECRET_ACCESS_KEY='yrbwW+/zJpAwZQ1LcaCq7wRUfS0Hs8xhpuoBoF+I'
 
 app = FastAPI()
 
